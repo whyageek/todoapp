@@ -1,6 +1,8 @@
 To-Do App with Keycloak Authentication and Stripe Integration
+
 Overview
 This is a full-stack To-Do application built using Flask for the backend and React for the frontend. The app integrates Keycloak for authentication and Stripe for payment processing, enabling users to manage their to-dos and upgrade to a Pro version to upload images.
+
 Features
 1.	Authentication:
 o	Login and logout functionality with Keycloak.
