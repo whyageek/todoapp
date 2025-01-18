@@ -1,0 +1,11 @@
+# config.py
+
+class Config:
+    SECRET_KEY = '0705068abedcfd59c9d7af33de4afc28cc62d0b392631148fd4d90fcb264fb30'
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///app.db'
+    SQLALCHEMY_TRACK_MODIFICATIONS = False
+    KEYCLOAK_SERVER_URL = 'http://localhost:8080'
+    KEYCLOAK_REALM = 'todo-realm'
+    KEYCLOAK_CLIENT_ID = 'todo-client'
+    KEYCLOAK_CLIENT_SECRET = 'hbtWyEyfzbA7pVFBZ3p5tf9bndEV2zCJ'
+    STRIPE_API_KEY = 'sk_test_51Qhn0GRo7VQsqPY6RDA670lUzD7IKQ4TGe8NifLKP1PFBBgbxw5XWlLz8M3Z8aJb02OkaznZujVpa0O9Ln4SRy8z00A6hLB0GS'

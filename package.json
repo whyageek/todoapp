@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "keycloak-js": "^26.1.0",
+    "react-stripe-checkout": "^2.6.3"
+  }
+}
